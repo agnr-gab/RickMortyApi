@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+div {
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+figure{
+  margin: 0;
+  padding: 0;
+}
+
+body{  
+  background-image: url(img/bg-teste.jpg);  
+  color: royalblue;
+}
+
+.texto{
+  background: wheat;
+  text-align: center;
+  opacity: 0.8;
+  color:black;
+}
+
+h1,h2 {
+  background: linear-gradient(to right, #45B649, #DCE35B);
+  padding: 10px;
+  text-align: center;
+  color: black
+
+}
+
+.personagens {
+  background: #DCE35B;
+  display: inline-block;
+  padding: 10px;
+}
+
+.personagens:hover{
+  background: greenyellow;
+  cursor: pointer;
+}
+
+.personagens h3{
+  background: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.personagens > p{
+  background: black;
+}
+
+.personagens h3 + p {
+  background: black;
+}
+
+
+h3{
+  background: black;
+  padding: 5px;
+}
+
+footer {  
+  color: gray;
+  text-align: center;
+  font-style: italic;
+}
+
+a:hover {
+  color:royalblue;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  font-style: italic;
+}
+
+#foto-texto {
+  margin-left: 400px;
+}
+
+#foto-cabecalho {
+  height: 100px;
+  width: 300px;
+}
+
+#video {
+  margin-left: 400px;
+}
