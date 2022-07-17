@@ -27,7 +27,15 @@ header{
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+
+}
+.inicio div{  
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
@@ -36,27 +44,31 @@ header{
   background: wheat;
   opacity: 0.8;
   color:black;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+   align-items: center;
   width: 99%;
-
+ 
 }
 .foto-texto {
-  width: 90%;
+  width: 60%;
   display: flex;
   justify-content: center;
+  
+}
+.foto-texto img{
+  width: 100%;
 }
 
 
 h2 {
   background: linear-gradient(to right, #45B649, #DCE35B);
-  width: 98vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   color: black;
-  font-size: 50px;
+  font-size: 40px;
 
 }
 
@@ -67,11 +79,12 @@ h2 {
   }
 
 .personagens {
+  
   background: #DCE35B;
   display: flex;
   flex-direction: column;
   align-items:center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-radius: 50px;
 }
 
@@ -84,14 +97,15 @@ h2 {
   background: black;
   display: flex;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
 }
 
 .personagens p{
   background: black;
    display: flex;
-   width: 80%;
+   width: 90%;
    font-size: 20px;
+  border-radius: 10px;
 
 
 }
@@ -144,5 +158,16 @@ a{
   .personagens{
     border-radius: 50px;
   }
+  .texto{
+
+  width: 99%;
+  }
+  .foto-texto {
+    width: 95%;
+    border: solid;
+    }
+    h2{
+      text-align: center;
+    }
 
 }
