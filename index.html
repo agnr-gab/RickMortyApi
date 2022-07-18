@@ -8,24 +8,34 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>  
   <body>
-    <hgroup>
-      <h1><img id="foto-cabecalho" src="img/logo.png"></img></h1>      
-
-      <p class="texto">Rick e Morty é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.</p>
-
-      <img id="foto-texto" src="img/img-texto.jpeg" alt="rick e morty foto de episodio"></img>
-
-      <p class="texto"> Rick Sanchez é um cientista genial e alcoólatra que foi morar com a família de sua filha Beth, uma cirurgiã cardíaca de equinos. Ele divide seu tempo entre desenvolver projetos altamente tecnológicos em seu laboratório (garagem da casa de Beth) e levar seu neto de 14 anos Morty em aventuras perigosas e surreais pelo Multiverso. Combinados com tensões preexistentes dentro da família, esses eventos causam ao sensível Morty muito angústia em casa e na escola.<a href="https://pt.wikipedia.org/wiki/Rick_and_Morty" target="_blank">Saiba mais aqui</a></p>
-
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/BFTSrbB2wII?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    <header>
+            <img class="foto-cabecalho" src="img/logo.png"></img>
+    </header>
+    <main>
+      <section class="inicio">
+        <div>
+          <p class="texto">Rick e Morty é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.</p>
+          <figure class="foto-texto">
+            <img src="img/img-texto.jpeg" alt="rick e morty foto de episodio"></img>
+          </figure>
+                  
+          <p class="texto"> Rick Sanchez é um cientista genial e alcoólatra que foi morar com a família de sua filha Beth, uma cirurgiã cardíaca de equinos. Ele divide seu tempo entre desenvolver projetos altamente tecnológicos em seu laboratório (garagem da casa de Beth) e levar seu neto de 14 anos Morty em aventuras perigosas e surreais pelo Multiverso. Combinados com tensões preexistentes dentro da família, esses eventos causam ao sensível Morty muito angústia em casa e na escola.<a href="https://pt.wikipedia.org/wiki/Rick_and_Morty" target="_blank">Saiba mais aqui</a></p>
       
-            
-      <h2>Conheça os personagens de Rick e Morty</h2>
+        </div>
+     <div class="video">
+       <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/BFTSrbB2wII?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+     </div>
+      <div>
+         <h2>Conheça os personagens de Rick e Morty</h2>
       <p class="texto">Atualize a página e conheça mais personagens!</p>
-    </hgroup>
 
-    <div class="personagens">
+      </div>
+     
+      </section>
+     
+      <section class="person">
+        <div class="personagens">
           <figure>
           <img id="personagem1" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Imagem de Personagem">
           </figure>
@@ -63,11 +73,14 @@
           <p id="especie4">Espécie:</p>
           <p id="status4">Status:</p>
           <p id="gender4">Gênero:</p>           
-          </div>
+    </div>
 
-    </div>       
+      </section>
+    </main>
+    
+    <footer>
+      <a href="https://rickandmortyapi.com/" target="_blank">Rick&Morty &copy;</a>
+    </footer>   
     <script src="javascript.js"></script> 
-    <footer><a href="https://rickandmortyapi.com/" target="_blank">Rick&Morty &copy;</a></footer>   
-
   </body>
 </html>
